@@ -23,7 +23,7 @@
 **          Kenneth Price                                     **
 **          836 Owl Circle                                    **
 **          Vacaville, CA 95687                               **
-**          E-mail: kprice@solano.community.net               ** 
+**          E-mail: kprice@solano.community.net               **
 **                                                            **
 ** This program implements some variants of Differential      **
 ** Evolution (DE) as described in part in the techreport      **
@@ -31,7 +31,7 @@
 ** ftp.icsi.berkeley.edu/pub/techreports/1995/tr-95-012.ps.Z  **
 ** or via WWW: http://http.icsi.berkeley.edu/~storn/litera.html*
 ** A more extended version of tr-95-012.ps is submitted for   **
-** publication in the Journal Evolutionary Computation.       ** 
+** publication in the Journal Evolutionary Computation.       **
 **                                                            **
 ** You may use this program for any purpose, give it to any   **
 ** person or change it according to your needs as long as you **
