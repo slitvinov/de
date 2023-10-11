@@ -247,22 +247,6 @@ int main(int argc, char *argv[])
     exit(1);
  }
 
-
- fpout_ptr = fopen(argv[2],"r");          /* open output file for reading,    */
-                                          /* to see whether it already exists */
- if ( fpout_ptr != NULL )
- {
-    printf("\nOutput file %s does already exist, \ntype y if you ",argv[2]);
-    printf("want to overwrite it, \nanything else if you want to exit.\n");
-    chr = (char)getchar();
-    if ((chr != 'y') && (chr != 'Y'))
-    {
-      exit(1);
-    }
-    fclose(fpout_ptr);
- }
-
-
 /*-----Read input data------------------------------------------------*/
 
  fpin_ptr   = fopen(argv[1],"r");
