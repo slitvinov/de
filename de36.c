@@ -406,10 +406,12 @@ int main(int argc, char *argv[])
 	   r4 = (int)(rnd_uni(&rnd_uni_init)*NP);
 	 }while((r4==i) || (r4==r1) || (r4==r2) || (r4==r3));
 
-	 do                        /* Pick a random population member */
-	 {                         /* Endless loop for NP < 6 !!!     */
-	   r5 = (int)(rnd_uni(&rnd_uni_init)*NP);
-	 }while((r5==i) || (r5==r1) || (r5==r2) || (r5==r3) || (r5==r4));
+	 if (NP >= 6) {
+	   do                        /* Pick a random population member */
+	     {                         /* Endless loop for NP < 6 !!!     */
+	       r5 = (int)(rnd_uni(&rnd_uni_init)*NP);
+	     }while((r5==i) || (r5==r1) || (r5==r2) || (r5==r3) || (r5==r4));
+	 }
 
 
 /*=======Choice of strategy===============================================================*/
