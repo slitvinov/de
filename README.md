@@ -1,4 +1,4 @@
-<h2>Differential evaluations<h2>
+<h2>Differential evaluations</h2>
 
 Compile and run
 <pre>
