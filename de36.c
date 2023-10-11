@@ -1,12 +1,5 @@
 #include "de.h"
 
-/*------------------------Macros----------------------------------------*/
-
-/*#define ASSIGND(a,b) memcpy((a),(b),sizeof(double)*D) */ /* quick copy by
-                                                              Claudio */
-/* works only for small  */
-/* arrays, but is faster.*/
-
 /*------------------------Globals---------------------------------------*/
 
 long rnd_uni_init; /* serves as a seed for rnd_uni()   */
