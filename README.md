@@ -1,3 +1,12 @@
+<h2>Differential evaluations<h2>
+
+Compile and run
+<pre>
+cc -O2 de36.c dj9.c
+./a.out dj9.dat o
+</pre>
+
+
 <pre>
 /***************************************************************
 **                                                            **
