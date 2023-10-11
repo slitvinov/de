@@ -168,7 +168,7 @@ double rnd_uni(long *idum)
 
 
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 /**C*F****************************************************************
 **                                                                  **
 ** SRC-FUNCTION   :main()                                           **
