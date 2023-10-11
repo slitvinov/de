@@ -1,7 +1,8 @@
-#include "de.h"
+# include "de.h"
 
-double evaluate(int D, double tmp[], long *nfeval) {
-  /* polynomial fitting problem */
+double evaluate(int D, double tmp[], long *nfeval)
+{
+/* polynomial fitting problem */
   double s;
   int i;
   s = 0;
