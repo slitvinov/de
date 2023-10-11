@@ -6,6 +6,7 @@ cc -O2 de36.c dj9.c
 ./a.out dj9.dat o
 </pre>
 
+<h2>Comments from the original</h2>
 
 <pre>
 /***************************************************************
